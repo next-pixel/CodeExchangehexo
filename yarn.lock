@@ -2787,6 +2787,27 @@
     "serve-static" "^1.4.0"
     "write-good" "^0.10.0"
 
+"hexo-admin@^2.3.0":
+  "integrity" "sha512-dbfy2AugRql+7uuEkefcPiByWumPMr7er/5wTxEsCwOQjSlidpHpwryuUUuSfyKVktA3rpDwv8vHjHoAiMGHhg=="
+  "resolved" "https://registry.npmjs.org/hexo-admin/-/hexo-admin-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "bcrypt-nodejs" "0.0.3"
+    "body-parser" "^1.5.0"
+    "browserify" "^11.2.0"
+    "connect-auth" "^0.6.1"
+    "cookie-parser" "^1.3.4"
+    "deep-assign" "^2.0.0"
+    "express-session" "^1.10.3"
+    "extend" "^3.0.0"
+    "hexo-front-matter" "^0.2.2"
+    "hexo-fs" "^0.1.3"
+    "hexo-util" "^0.1.6"
+    "less" "^2.5.1"
+    "moment" "^2.7.0"
+    "serve-static" "^1.4.0"
+    "write-good" "^0.10.0"
+
 "hexo-cli@^4.0.0", "hexo-cli@^4.3.0":
   "integrity" "sha512-lr46h1tK1RNQJAQZbzKYAWGsmqF5DLrW6xKEakqv/o9JqgdeempBjIm7HqjcZEUBpWij4EO65X6YJiDmT9LR7g=="
   "resolved" "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.0.tgz"
@@ -2838,6 +2859,16 @@
   "version" "3.0.0"
   dependencies:
     "js-yaml" "^4.1.0"
+
+"hexo-fs@^0.1.3":
+  "integrity" "sha512-CAcMMDXJRMA1MUckq/O3jQaeSTlLtQSnlcpMSUee5bP6IBH8/30xe2BHD8pBl367fRbkj4jRcMdBSoDgorjHqg=="
+  "resolved" "https://registry.npmjs.org/hexo-fs/-/hexo-fs-0.1.6.tgz"
+  "version" "0.1.6"
+  dependencies:
+    "bluebird" "^3.4.0"
+    "chokidar" "^1.5.2"
+    "escape-string-regexp" "^1.0.5"
+    "graceful-fs" "^4.1.4"
 
 "hexo-fs@^0.2.2":
   "integrity" "sha512-rLB1rMVUW3csAljvJgHfyjemL0BrmcUZfBf9hJe6S0pA53igFa3ON0PFwomvoLs1Wdmjs9Awnw9Tru4PjWFSlQ=="

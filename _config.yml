@@ -79,3 +79,9 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$3/nxDvKLtEIhli62DY6/GOVDAX4xAzNw6Jm6mxaCCjU7Bb8kT.YI6
+  secret: admin
